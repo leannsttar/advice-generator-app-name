@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Advice Generator</title>
+</head>
+<body>
+  <div class="bg-[#202632] flex justify-center items-center h-screen w-screen">
+    <div class="bg-[#313a49] relative h-auto w-[90%] py-10 px-6 flex flex-col justify-center items-center rounded-xl lg:w-[30%] lg:py-7 lg:px-8">
+      <p id="idM" class="text-[13px] text-[#53ffab] tracking-[0.4em] font-semibold lg:text-sm lg:mt-4">ADVICE #117</p>
+      <div class="mt-8">
+        <p id="message" class="text-[#d3e4ee] text-3xl text-center font-medium lg:text-3xl">"It is easy to sit up and take notice, whats difficult is getting up and taking action."</p>
+      </div>
+      <div class="flex items-center space-x-5 mb-8 mt-5 w-full lg:mt-11 lg:mb-12">
+        <hr class="w-full opacity-50">
+        <div class="flex space-x-2">
+          <div class="bg-white h-5 w-2 rounded-full"></div>
+          <div class="bg-white h-5 w-2 rounded-full"></div>
+        </div>
+        <hr class="w-full opacity-50">
+      </div>
+      <div id="roll" class="bg-[#53ffab] p-6 rounded-full absolute bottom-[-32px] cursor-pointer">
+        <img class="w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/44/44375.png" alt="">
+      </div>
+    </div>
+  </div>
+  <script src="./api.js"></script>
+</body>
+</html>
